@@ -1,0 +1,120 @@
+{
+  "format": "OSTF",
+  "version": "2.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Meter 12/8",
+    "key": "C"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "s1",
+        "name": "Verse",
+        "role": "verse",
+        "start": 0,
+        "duration": 7680
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 12,
+        "denominator": 8
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "tonalChanges": [
+      {
+        "at": 0,
+        "root": "C",
+        "mode": "major"
+      }
+    ]
+  },
+  "harmony": [
+    {
+      "id": "h1",
+      "start": 0,
+      "duration": 3840,
+      "symbol": "Cmaj7"
+    }
+  ],
+  "melodies": [
+    {
+      "id": "mel1",
+      "role": "vocal-main",
+      "notes": [
+        {
+          "id": "n1",
+          "start": 0,
+          "duration": 960,
+          "pitch": 60
+        }
+      ],
+      "clips": [
+        {
+          "id": "c1",
+          "start": 0,
+          "duration": 960,
+          "noteIds": [
+            "n1"
+          ]
+        }
+      ]
+    }
+  ],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "d1",
+        "text": "Hello",
+        "vocalText": "Hello",
+        "segments": [
+          {
+            "source": "text",
+            "kind": "word",
+            "start": 0,
+            "end": 5
+          }
+        ]
+      }
+    ],
+    "phrases": [
+      {
+        "id": "p1",
+        "documentId": "d1",
+        "startOffset": 0,
+        "endOffset": 5,
+        "start": 0,
+        "duration": 960
+      }
+    ],
+    "units": [
+      {
+        "id": "u1",
+        "phraseId": "p1",
+        "startOffset": 0,
+        "endOffset": 5,
+        "text": "Hello",
+        "reading": "Hello"
+      }
+    ],
+    "alignments": [
+      {
+        "id": "a1",
+        "unitId": "u1",
+        "noteIds": [
+          "n1"
+        ]
+      }
+    ],
+    "vocalUnits": [],
+    "indexUnit": "unicodeCodePoint"
+  }
+}

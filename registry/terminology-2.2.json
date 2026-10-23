@@ -1,0 +1,208 @@
+{
+  "version": "2.2.0",
+  "registry": {
+    "key.major": {
+      "aliases": [
+        "major",
+        "maj",
+        "Major",
+        "長調"
+      ],
+      "canonical": "major"
+    },
+    "key.minor": {
+      "aliases": [
+        "minor",
+        "min",
+        "Minor",
+        "短調"
+      ],
+      "canonical": "minor"
+    },
+    "scale.ionian": {
+      "aliases": [
+        "ionian",
+        "Ionian",
+        "major scale",
+        "major-scale",
+        "イオニアン"
+      ],
+      "intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ]
+    },
+    "scale.dorian": {
+      "aliases": [
+        "dorian",
+        "Dor",
+        "ドリアン"
+      ],
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ]
+    },
+    "scale.phrygian": {
+      "aliases": [
+        "phrygian",
+        "Phrygian",
+        "フリジアン"
+      ],
+      "intervals": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ]
+    },
+    "scale.lydian": {
+      "aliases": [
+        "lydian",
+        "Lydian",
+        "リディアン"
+      ],
+      "intervals": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ]
+    },
+    "scale.mixolydian": {
+      "aliases": [
+        "mixolydian",
+        "Mixolydian",
+        "ミクソリディアン"
+      ],
+      "intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ]
+    },
+    "scale.aeolian": {
+      "aliases": [
+        "aeolian",
+        "natural minor",
+        "ナチュラルマイナー"
+      ],
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ]
+    },
+    "scale.locrian": {
+      "aliases": [
+        "locrian",
+        "Locrian",
+        "ロクリアン"
+      ],
+      "intervals": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ]
+    },
+    "scale.harmonic-minor": {
+      "aliases": [
+        "harmonic minor",
+        "ハーモニックマイナー"
+      ],
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ]
+    },
+    "scale.jazz-melodic-minor": {
+      "aliases": [
+        "jazz melodic minor",
+        "ascending melodic minor"
+      ],
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ]
+    },
+    "meter.common": {
+      "aliases": [
+        "4/4",
+        "common time",
+        "C"
+      ],
+      "numerator": 4,
+      "denominator": 4
+    },
+    "meter.cut": {
+      "aliases": [
+        "2/2",
+        "cut time",
+        "alla breve",
+        "¢"
+      ],
+      "numerator": 2,
+      "denominator": 2
+    },
+    "section.verse": {
+      "aliases": [
+        "Verse",
+        "verse"
+      ],
+      "canonical": "verse"
+    },
+    "section.chorus": {
+      "aliases": [
+        "Chorus",
+        "chorus"
+      ],
+      "canonical": "chorus"
+    },
+    "section.bridge": {
+      "aliases": [
+        "Bridge",
+        "bridge"
+      ],
+      "canonical": "bridge"
+    }
+  },
+  "status": "normative-bounded"
+}

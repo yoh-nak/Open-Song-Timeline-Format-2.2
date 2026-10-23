@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "ostf.chord.dialect-registry.2.2",
+  "revision": "rc39",
+  "coreGrammar": "ostf-chord-notation-2.2-d1",
+  "recognizedDialects": [
+    {
+      "id": "ostf-core-2.2",
+      "grammar": "ostf-chord-notation-2.2-d1",
+      "description": "Bounded Core grammar including exactly two-part vertical polychords"
+    }
+  ],
+  "unknownDialectRule": "When dialect is unregistered, only exact Core grammar recognition is permitted; never assume vendor-specific tokens or reinterpret an unknown symbol. Original text remains authoritative.",
+  "registeredDialectRule": "A registered dialect can only use grammar actually specified by its registry entry. Vendor application names alone never imply recognition.",
+  "renderRule": "No lossy rendering; semantics must reparse identically or use original input."
+}

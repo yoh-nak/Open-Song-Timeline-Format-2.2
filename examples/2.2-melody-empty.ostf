@@ -1,0 +1,56 @@
+{
+  "format": "OSTF",
+  "version": "2.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Song with no melody lanes",
+    "key": "C"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "s1",
+        "name": "Verse",
+        "role": "verse",
+        "start": 0,
+        "duration": 7680
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "tonalChanges": [
+      {
+        "at": 0,
+        "root": "C",
+        "mode": "major"
+      }
+    ]
+  },
+  "harmony": [
+    {
+      "id": "h1",
+      "start": 0,
+      "duration": 3840,
+      "symbol": "Cmaj7"
+    }
+  ],
+  "melodies": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": [],
+    "vocalUnits": []
+  }
+}
